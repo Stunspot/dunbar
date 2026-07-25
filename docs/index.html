@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dunbar provides user-governed person recall with identity resolution, evidence-aware records, progressive disclosure, and humane relationship context.">
+  <meta name="theme-color" content="#111827">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dunbar">
+  <meta property="og:description" content="Keep the people who matter intelligible at the moment they matter.">
+  <meta property="og:url" content="https://stunspot.github.io/dunbar/">
+  <meta property="og:image" content="https://stunspot.github.io/dunbar/assets/dunbar-hero.png">
+  <meta property="og:image:alt" content="Distinct handcrafted tokens rest in loose concentric rings, with one brought gently into focus beside a preparation note.">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Dunbar · User-Governed People Recall</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Dunbar home">
+        <span class="brand-rings" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>Dunbar</span>
+      </a>
+      <div class="nav-links">
+        <a href="#resolve">Resolve</a>
+        <a href="#disclose">Disclosure</a>
+        <a href="#circles">Circles</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#care">Care</a>
+        <a href="https://github.com/Stunspot/dunbar">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">User-governed people recall and context</p>
+        <h1>Recognize the person.<br>Retrieve the evidence.<br>Reveal only what helps.</h1>
+        <p class="lede">Dunbar helps one person remain attentive to other people. It preserves relationship context, interaction texture, open loops, and evidence without pretending a database can compute anyone’s essence.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/Stunspot/dunbar/blob/main/SKILL.md">Read the skill</a>
+          <a class="button secondary" href="https://github.com/Stunspot/dunbar">Explore the source</a>
+        </div>
+        <p class="quiet">Contest edition 1.0.0 · MIT License · Progressive disclosure from silent readiness to requested dossier</p>
+      </div>
+      <figure class="hero-visual">
+        <img src="assets/dunbar-hero.png" width="1600" height="900" alt="Distinct handcrafted relationship tokens rest in loose concentric rings; one is brought gently into focus beside a blank preparation note while the others recede.">
+      </figure>
+    </section>
+
+    <section class="section resolve-section" id="resolve">
+      <div class="section-heading">
+        <p class="eyebrow">Enter through the person</p>
+        <h2>Identity resolution comes before recollection.</h2>
+        <p>A normalized alias is an identity handle—not proof that every attached claim is true. Resolve first, disambiguate compactly when needed, then retrieve person-scoped evidence using the live conversational need.</p>
+      </div>
+      <div class="resolve-flow">
+        <article>
+          <span class="step">01</span>
+          <h3>A person becomes materially relevant</h3>
+          <p>Recall, meeting preparation, follow-up, comparison, or durable context—not merely a name passing through a sentence.</p>
+        </article>
+        <div class="flow-arrow" aria-hidden="true">→</div>
+        <article>
+          <span class="step">02</span>
+          <h3>Resolve the handle</h3>
+          <p>Exact normalized aliases can identify one person, several candidates, or nobody. Ambiguity remains visible.</p>
+        </article>
+        <div class="flow-arrow" aria-hidden="true">→</div>
+        <article>
+          <span class="step">03</span>
+          <h3>Retrieve with the current need</h3>
+          <p>Lexical rows carry item IDs, evidence state, effective time, sensitivity, source, and supersession status.</p>
+        </article>
+        <div class="flow-arrow" aria-hidden="true">→</div>
+        <article>
+          <span class="step">04</span>
+          <h3>Serve the conversation</h3>
+          <p>Answer the user’s actual purpose first, then expose the smallest useful evidence boundary.</p>
+        </article>
+      </div>
+      <div class="command-strip">
+        <code>python scripts/dunbar.py resolve "&lt;name or alias&gt;"</code>
+        <code>python scripts/dunbar.py recall "&lt;name or alias&gt;" --context "&lt;current need&gt;" --level cue</code>
+      </div>
+    </section>
+
+    <section class="section disclose-section" id="disclose">
+      <div class="section-heading">
+        <p class="eyebrow">Progressive disclosure is relevance discipline</p>
+        <h2>Retrieve enough to avoid amnesia. Reveal only what improves this exchange.</h2>
+      </div>
+      <div class="disclosure-stack">
+        <article class="layer silent">
+          <span class="layer-index">00</span>
+          <div><h3>Silent readiness</h3><p>Resolve once when the person first matters and keep a cue packet ready when surfacing it would only add noise.</p></div>
+        </article>
+        <article class="layer cue">
+          <span class="layer-index">01</span>
+          <div><h3>Cue</h3><p>Identity, why the person matters now, and zero to three current items—plus a light path to the brief or full history.</p></div>
+        </article>
+        <article class="layer brief">
+          <span class="layer-index">02</span>
+          <div><h3>Brief</h3><p>Relationship context, active threads, preferences, recent interaction, open loops, commitments, and material caveats that could affect the present decision.</p></div>
+        </article>
+        <article class="layer dossier">
+          <span class="layer-index">03</span>
+          <div><h3>Dossier</h3><p>The governed record, timeline, aliases, sources, relations, contradictions, and supersession history—only when requested and within the chosen sensitivity boundary.</p></div>
+        </article>
+      </div>
+      <p class="disclosure-note">More stored data does not force a deeper response. A larger haystack is not automatically more useful, however confidently it accessorizes.</p>
+    </section>
+
+    <section class="section circles-section" id="circles">
+      <div class="circles-copy">
+        <p class="eyebrow">Attention scaffolds, not worth rankings</p>
+        <h2>Dunbar circles help maintain relationships without scoring people.</h2>
+        <p>The user sets or corrects the circle. Message volume, job title, social status, and data abundance never infer intimacy.</p>
+      </div>
+      <div class="circle-map" aria-label="Dunbar relationship-maintenance bands">
+        <div class="orbit orbit-1500"><span>recognized-1500</span></div>
+        <div class="orbit orbit-500"><span>acquaintance-500</span></div>
+        <div class="orbit orbit-150"><span>network-150</span></div>
+        <div class="orbit orbit-50"><span>active-50</span></div>
+        <div class="orbit orbit-15"><span>close-15</span></div>
+        <div class="orbit orbit-5"><span>support-5</span></div>
+        <div class="orbit-core"><span>user</span></div>
+      </div>
+      <p class="unplaced"><strong>unplaced</strong> — insufficient or deliberately unclassified relationship context remains valid and visible.</p>
+    </section>
+
+    <section class="section evidence-section" id="evidence">
+      <div class="section-heading">
+        <p class="eyebrow">Evidence state governs confidence</p>
+        <h2>Keep what was checked, witnessed, reported, inferred, missing, and disputed meaningfully different.</h2>
+      </div>
+      <div class="evidence-grid">
+        <article><span class="state verified">verified</span><p>Directly checked against an accountable source for the narrow claim.</p></article>
+        <article><span class="state observed">observed</span><p>The user or an authorized tool directly witnessed the event.</p></article>
+        <article><span class="state reported">reported</span><p>Someone supplied the claim without independent verification.</p></article>
+        <article><span class="state inferred">inferred</span><p>A bounded interpretation derived from named evidence and kept easy to retract.</p></article>
+        <article><span class="state unknown">unknown</span><p>The record explicitly acknowledges a missing answer instead of decorating the gap.</p></article>
+        <article><span class="state disputed">disputed</span><p>Material evidence or authority conflicts and the disagreement remains live.</p></article>
+      </div>
+      <div class="time-pair">
+        <p><strong>recorded_at</strong><span>When Dunbar received the item.</span></p>
+        <p><strong>effective_at</strong><span>When the item applied, if known.</span></p>
+        <p><strong>expires_at</strong><span>When the item should stop guiding action without refresh.</span></p>
+      </div>
+    </section>
+
+    <section class="section texture-section">
+      <div class="section-heading">
+        <p class="eyebrow">Remember relationships without reducing people</p>
+        <h2>Interaction texture beats personality labels.</h2>
+      </div>
+      <div class="texture-compare">
+        <div class="texture good">
+          <span class="texture-label">USEFUL RECORD</span>
+          <blockquote>“Prefers a short written brief before strategy calls.”</blockquote>
+          <blockquote>“Agreed to review the partnership draft next Tuesday.”</blockquote>
+          <blockquote>“In the July planning call, raised maintenance burden as the main objection.”</blockquote>
+        </div>
+        <div class="texture bad">
+          <span class="texture-label">REDUCTIVE LABEL</span>
+          <blockquote>“Difficult person.”</blockquote>
+          <blockquote>“Probably narcissistic.”</blockquote>
+          <blockquote>“Can be manipulated by urgency.”</blockquote>
+        </div>
+      </div>
+      <p>Record situated behavior, context, source, and time. Never infer protected traits, diagnoses, motives, romantic interest, trustworthiness, or psychological scores.</p>
+    </section>
+
+    <section class="section care-section" id="care">
+      <div class="section-heading">
+        <p class="eyebrow">Protect the person who is not in the room</p>
+        <h2>Presence in the store never authorizes disclosure or action.</h2>
+      </div>
+      <div class="care-grid">
+        <article><h3>Minimize</h3><p>Keep only details that support legitimate relationship continuity. A recognized name with an empty record is better than a richly upholstered hallucination.</p></article>
+        <article><h3>Separate custody</h3><p>The canonical SQLite record, rebuildable full-text index, retrieved evidence, and conversational synthesis remain distinct.</p></article>
+        <article><h3>Exclude secrets</h3><p>Credentials, recovery codes, government identifiers, financial account numbers, precise live location, and secrets stay outside Dunbar.</p></article>
+        <article><h3>Require authority</h3><p>Contact, publication, scraping, enrichment, third-party disclosure, and network sync require separate explicit permission.</p></article>
+        <article><h3>Redact by default</h3><p>Ambient resolution, cue, and brief paths exclude restricted fields. Restricted material belongs only in an explicitly requested dossier and suitable setting.</p></article>
+        <article><h3>Keep claims challengeable</h3><p>Corrections supersede rather than silently rewrite. Deterministic receipts prove the database transaction—not the underlying human claim.</p></article>
+      </div>
+    </section>
+
+    <section class="section prompt-section">
+      <div class="section-heading">
+        <p class="eyebrow">A useful invocation</p>
+        <h2>Prepare with context, not surveillance.</h2>
+      </div>
+      <blockquote>
+        Use <code>$dunbar</code> to help me prepare for my conversation with Jordan. Resolve which Jordan I mean before retrieving anything, give me only the cue-level context that could materially improve this conversation, keep evidence states and open uncertainty visible, and offer the brief if deeper preparation would help.
+      </blockquote>
+      <p>For persistence, Dunbar uses stdin-based mutation commands for people, items, relations, and supersession. Resolve and recall currently place non-sensitive lookup text in command arguments, so those operations do not claim shell-history isolation.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Dunbar</strong> · Collaborative Dynamics · OpenAI Build Week contest edition.</p>
+    <p><a href="https://github.com/Stunspot/dunbar">Repository</a> · <a href="https://github.com/Stunspot/dunbar/blob/main/LICENSE.md">MIT License</a> · <a href="https://github.com/Stunspot/nova-the-optimal-ai-mind/tree/e42dd11646bc548b9ac29d6f700370365ee68986/plugins/nova-the-optimal-ai/skills/dunbar">Contest source</a></p>
+  </footer>
+</body>
+</html>
